@@ -1,6 +1,6 @@
 # After installing Linux [debian-based]
 
-Update all the things you can using GUI first and explore and set settings according to taste. 
+Update all the things you can using GUI first, explore and set settings according to taste. 
 
 ### Then run following commands in terminal
 
