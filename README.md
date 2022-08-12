@@ -1,4 +1,4 @@
-# After installing Linux [debian-based]
+# After installing Linux (debian-based)
 
 Update all the things you can using GUI first, explore and set settings according to taste. 
 
@@ -23,7 +23,7 @@ Update all the things you can using GUI first, explore and set settings accordin
 - [Chrome](https://www.google.com/chrome/)
 - [DroidCam](https://www.dev47apps.com/droidcam/linux/)
 
-### Setup PulseAudio noise cancellation feature [Optional]
+### Setup PulseAudio noise cancellation feature (Optional)
 
 1. Head over to this location 
 
@@ -42,6 +42,34 @@ Update all the things you can using GUI first, explore and set settings accordin
 3. Restart the pulseaudio by typing 
 
 `pulseaudio -k`
+
+### Install zsh and oh-my-zsh
+
+1. Install zsh (select 0 for install) and change default shell for the user
+
+`sudo apt-get install zsh`
+
+`chsh -s $(which zsh)`
+
+2. Install oh-my-zsh
+
+`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+3. Install powerlevel10k theme for zsh
+
+`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+
+`nano .zshrc`
+
+Locate the ZSH_THEME entry and set its value to powerlevel10k as shown:
+
+`ZSH_THEME="powerlevel10k/powerlevel10k”`
+
+Apply it
+
+`source .zshrc`
+
+Follow the powerlevel10k configuration wizard to set up your prompt as you see fit.
 
 ### Setup IDE(s) for programming languages
 
