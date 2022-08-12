@@ -4,17 +4,15 @@ Update all the things you can using GUI first, explore and set settings accordin
 
 ### Then run following commands in terminal
 
-`sudo apt update`
-
-`sudo apt upgrade -y`
+`sudo apt-get update && sudo apt upgrade -y`
 
 - To install basic important apps
 
-`sudo apt install git neofetch vlc gimp vim audacity ranger gnome-tweaks timeshift obs-studio`
+`sudo apt-get install git neofetch vlc gimp vim audacity ranger gnome-tweaks timeshift obs-studio`
 
 - To install restricted codecs for multimedia
 
-`sudo apt install ubuntu-restricted-extras`
+`sudo apt-get install ubuntu-restricted-extras`
 
 ### I would recommend to install following applications
 
@@ -25,7 +23,7 @@ Update all the things you can using GUI first, explore and set settings accordin
 - [Chrome](https://www.google.com/chrome/)
 - [DroidCam](https://www.dev47apps.com/droidcam/linux/)
 
-### Setup PulseAudio noise cancellation feature
+### Setup PulseAudio noise cancellation feature [Optional]
 
 1. Head over to this location 
 
