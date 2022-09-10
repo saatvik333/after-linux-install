@@ -23,7 +23,7 @@ Update all the things you can using GUI first, explore and set settings accordin
 - [Chrome](https://www.google.com/chrome/)
 - [DroidCam](https://www.dev47apps.com/droidcam/linux/)
 
-### Setup PulseAudio noise cancellation feature (Optional)
+### Setup PulseAudio noise cancellation feature (Optional) !NOTE: NO MORE USED IN GNOME 43 AND UPCOMING VERSIONS
 
 1. Head over to this location 
 
@@ -53,7 +53,7 @@ Update all the things you can using GUI first, explore and set settings accordin
 
 2. Install oh-my-zsh
 
-`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)`
 
 3. Install powerlevel10k theme for zsh
 
